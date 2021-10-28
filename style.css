@@ -1,0 +1,30 @@
+body{
+    text-align:center;
+}
+h3{
+    font-size:25px !important;
+}
+.btn-success:hover{
+    background-color:red;
+}
+.copy_right_footer{
+    background-color:gray;
+    color:white;
+    font-size:25px;
+    margin-top:638px;
+}
+
+canvas{
+    animation-name: example;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes example{
+    from{
+        box-shadow: 1px 1px 38px red;     
+    }
+    to{
+        box-shadow: 1px 1px 38px yellow;
+    }
+}
